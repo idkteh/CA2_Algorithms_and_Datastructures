@@ -15,7 +15,7 @@ public:
 	bool remove(T& item);
 	void clear();
 	int count();
-	T& get(T& item);
+	T& get(T& item);   //returns searched item
 
 	void printInOrder();
 	void printInOrder(BSTNode<T> *node);
@@ -24,7 +24,7 @@ public:
 	void printPostOrder();
 	void printPostOrder(BSTNode<T> *node);
 	T* toArray();
-	~BinaryTree();
+	~BinaryTree();    //destructor
 };
 
 template <class T>
@@ -164,7 +164,7 @@ T& BinaryTree<T>::get(T& item)
 		else
 			current = current->getRight();
 	}
-	throw logic_error("ITem not found");
+	throw logic_error("Item not found");
 }
 template <class T>
 void BinaryTree<T>::addItemToArray(BSTNode<T>* node, int &pos, T *arr)
