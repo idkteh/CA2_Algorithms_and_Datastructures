@@ -29,8 +29,22 @@ inline void TreeMap<K, V>::clear()
 template<class K, class V>
 inline bool TreeMap<K, V>::containsKey(K key)
 {
-
-	return false;
+	bool found = false;
+	BSTNode<Entity<K, V>>* node = tree.root;
+	while (!found) {
+		if (node == nullptr) {
+			return false;
+		}
+		else if (node->getItem().key == key) {
+			return true;
+		}
+		else if (node->getItem().key > key) {
+			node = node->getLeft();
+		}
+		else {
+			node = node->getRight();
+		}
+	}
 }
 
 template<class K, class V>
@@ -51,26 +65,28 @@ inline V& TreeMap<K, V>::get(K key)
 template<class K, class V>
 inline BinaryTree<K> TreeMap<K, V>::keySet()
 {
+
 	return BinaryTree<K>();
 }
 
 template<class K, class V>
 inline void TreeMap<K, V>::put(K key, V value)
 {
-	Entity<K, V> newItem(ket, value);   
+	Entity<K, V> newItem(key,value);   
 	tree.add(newItem);      
 }
 
 template<class K, class V>
 inline bool TreeMap<K, V>::removeKey(K key)
 {
-	Entity<K, V> toRemmove(key);
+	Entity<K, V> toRemove(key);
 	return tree.remove(toRemove).value;
 }
 
 template<class K, class V>
 inline V& TreeMap<K, V>::operator[](K key)
 {
-	return tree.get(key);
+	return this->get(key);  
+	// we can do return get(key); there's no difference
 	// TODO: insert return statement here
 }
