@@ -6,10 +6,11 @@ using namespace std;
 
 int main() {
 
-	TreeMap<string, int> test;
-	test.put("a", 1);
-	test.put("a", 1);
+	TreeMap<string, int> tree;
+	tree.put("a", 1);
+	tree.put("a", 2);
+	tree.put("b", 3);
 	
-	cout << test.containsKey("a") << endl;
+	cout << tree.containsKey("a") << endl;
 	return 0;
 }

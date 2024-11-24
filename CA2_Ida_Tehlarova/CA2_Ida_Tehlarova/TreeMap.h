@@ -9,6 +9,8 @@ template <class K, class V>
 class TreeMap
 {
 	BinaryTree<Entity<K, V>> tree;
+	void addKeys(BSTNode<Entity<K, V>>* node, BinaryTree<K>& keySet);
+
 public:
 	void clear();
 	bool containsKey(K key);
@@ -18,6 +20,7 @@ public:
 	void put(K key, V value);
 	bool removeKey(K key);
 	V& operator[](K key);
+
 };
 
 template<class K, class V>
@@ -59,15 +62,38 @@ inline V& TreeMap<K, V>::get(K key)
 {
 	Entity<K, V> toGet(key);
 	return tree.get(toGet).value;
-	// TODO: insert return statement here
 }
 
 template<class K, class V>
 inline BinaryTree<K> TreeMap<K, V>::keySet()
 {
-		//ask derek
-	return BinaryTree<K>();
+	// recursion
+	// returns binary tree that includes each key without a value
+	BinaryTree<K> keys;
+	addKeys(keys.root, keys);
+	return keys;
 }
+
+template<class K, class V>
+inline void TreeMap<K, V>::addKeys(BSTNode<Entity<K, V>>* node, BinaryTree<K>& keySet)
+{	
+	//checks if left exists
+	//call itself with left node
+	//add the key of current node
+	//check if right exists
+	//calls itself again with right node
+
+	if (node->getLeft() != nullptr) {
+		addKeys(node->getLeft(), keySet);
+	}
+	keySet.add(node->getItem().key);
+	if (node->getRight() != nullptr) {
+		addKeys(node->getRight(), keySet);
+	}
+
+}
+
+
 
 template<class K, class V>
 inline void TreeMap<K, V>::put(K key, V value)
