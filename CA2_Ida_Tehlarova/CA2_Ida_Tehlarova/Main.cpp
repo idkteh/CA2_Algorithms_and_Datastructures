@@ -21,18 +21,17 @@ int main() {
 			stringstream nextLine(s); 
 			string g = ""; 
 			while (getline(nextLine, g, '\n')) {  // '\n' is gonna look for end of the line  
+				//cout << g;
 				if (!fromFile.containsKey(g[0])) {   //checks first letter 
-					BinaryTree<string> values; 
-					values.add(g);  //g is my word 
+					BinaryTree<string> values;  
 					fromFile.put(g[0], values); 
+					 
 				}
-				else {
-					fromFile.get(g[0]).add(g);   //adds to my binary tree if key exists 
-				}
+			fromFile.get(g[0]).add(g);   //adds to my binary tree if key exists 
 				
 			}
 		}
-	
+		
 		cout << fromFile<< endl;
 		f.close();
 	}

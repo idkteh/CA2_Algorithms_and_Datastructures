@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{9B32CA0C-8BF2-444D-8DF0-6FEAF068FF94}|CA2_Ida_Tehlarova\\CA2_Ida_Tehlarova.vcxproj|solutionrelative:CA2_Ida_Tehlarova\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9B32CA0C-8BF2-444D-8DF0-6FEAF068FF94}|CA2_Ida_Tehlarova\\CA2_Ida_Tehlarova.vcxproj|C:\\Users\\idate\\Documents\\GitHub\\CA2_Algorithms_and_Datastructures\\CA2_Ida_Tehlarova\\CA2_Ida_Tehlarova\\BinaryTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9B32CA0C-8BF2-444D-8DF0-6FEAF068FF94}|CA2_Ida_Tehlarova\\CA2_Ida_Tehlarova.vcxproj|solutionrelative:CA2_Ida_Tehlarova\\BinaryTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9B32CA0C-8BF2-444D-8DF0-6FEAF068FF94}|CA2_Ida_Tehlarova\\CA2_Ida_Tehlarova.vcxproj|C:\\Users\\idate\\Documents\\GitHub\\CA2_Algorithms_and_Datastructures\\CA2_Ida_Tehlarova\\CA2_Ida_Tehlarova\\TreeMap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9B32CA0C-8BF2-444D-8DF0-6FEAF068FF94}|CA2_Ida_Tehlarova\\CA2_Ida_Tehlarova.vcxproj|solutionrelative:CA2_Ida_Tehlarova\\TreeMap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9B32CA0C-8BF2-444D-8DF0-6FEAF068FF94}|CA2_Ida_Tehlarova\\CA2_Ida_Tehlarova.vcxproj|C:\\Users\\idate\\Documents\\GitHub\\CA2_Algorithms_and_Datastructures\\CA2_Ida_Tehlarova\\CA2_Ida_Tehlarova\\BSTNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9B32CA0C-8BF2-444D-8DF0-6FEAF068FF94}|CA2_Ida_Tehlarova\\CA2_Ida_Tehlarova.vcxproj|solutionrelative:CA2_Ida_Tehlarova\\BSTNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B32CA0C-8BF2-444D-8DF0-6FEAF068FF94}|CA2_Ida_Tehlarova\\CA2_Ida_Tehlarova.vcxproj|C:\\Users\\idate\\Documents\\GitHub\\CA2_Algorithms_and_Datastructures\\CA2_Ida_Tehlarova\\CA2_Ida_Tehlarova\\BinaryTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9B32CA0C-8BF2-444D-8DF0-6FEAF068FF94}|CA2_Ida_Tehlarova\\CA2_Ida_Tehlarova.vcxproj|solutionrelative:CA2_Ida_Tehlarova\\BinaryTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71E8D109-5EF5-40BC-8535-ECDA894CBB80}|TreeMap_Test\\TreeMap_Test.vcxproj|C:\\Users\\idate\\Documents\\GitHub\\CA2_Algorithms_and_Datastructures\\CA2_Ida_Tehlarova\\TreeMap_Test\\TreeMap_Test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -59,52 +59,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Entity.h",
               "DocumentMoniker": "C:\\Users\\idate\\Documents\\GitHub\\CA2_Algorithms_and_Datastructures\\CA2_Ida_Tehlarova\\CA2_Ida_Tehlarova\\Entity.h",
               "RelativeDocumentMoniker": "CA2_Ida_Tehlarova\\Entity.h",
               "ToolTip": "C:\\Users\\idate\\Documents\\GitHub\\CA2_Algorithms_and_Datastructures\\CA2_Ida_Tehlarova\\CA2_Ida_Tehlarova\\Entity.h",
               "RelativeToolTip": "CA2_Ida_Tehlarova\\Entity.h",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAAhAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-13T15:45:58.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BSTNode.h",
               "DocumentMoniker": "C:\\Users\\idate\\Documents\\GitHub\\CA2_Algorithms_and_Datastructures\\CA2_Ida_Tehlarova\\CA2_Ida_Tehlarova\\BSTNode.h",
               "RelativeDocumentMoniker": "CA2_Ida_Tehlarova\\BSTNode.h",
               "ToolTip": "C:\\Users\\idate\\Documents\\GitHub\\CA2_Algorithms_and_Datastructures\\CA2_Ida_Tehlarova\\CA2_Ida_Tehlarova\\BSTNode.h",
               "RelativeToolTip": "CA2_Ida_Tehlarova\\BSTNode.h",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACYAAAAMAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-13T15:24:45.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TreeMap.h",
               "DocumentMoniker": "C:\\Users\\idate\\Documents\\GitHub\\CA2_Algorithms_and_Datastructures\\CA2_Ida_Tehlarova\\CA2_Ida_Tehlarova\\TreeMap.h",
               "RelativeDocumentMoniker": "CA2_Ida_Tehlarova\\TreeMap.h",
               "ToolTip": "C:\\Users\\idate\\Documents\\GitHub\\CA2_Algorithms_and_Datastructures\\CA2_Ida_Tehlarova\\CA2_Ida_Tehlarova\\TreeMap.h",
               "RelativeToolTip": "CA2_Ida_Tehlarova\\TreeMap.h",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAACAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAwCYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-13T15:23:22.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "BinaryTree.h",
               "DocumentMoniker": "C:\\Users\\idate\\Documents\\GitHub\\CA2_Algorithms_and_Datastructures\\CA2_Ida_Tehlarova\\CA2_Ida_Tehlarova\\BinaryTree.h",
               "RelativeDocumentMoniker": "CA2_Ida_Tehlarova\\BinaryTree.h",
               "ToolTip": "C:\\Users\\idate\\Documents\\GitHub\\CA2_Algorithms_and_Datastructures\\CA2_Ida_Tehlarova\\CA2_Ida_Tehlarova\\BinaryTree.h",
               "RelativeToolTip": "CA2_Ida_Tehlarova\\BinaryTree.h",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAACAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-13T14:55:54.842Z",
               "EditorCaption": ""
@@ -117,7 +117,7 @@
               "RelativeDocumentMoniker": "CA2_Ida_Tehlarova\\Main.cpp",
               "ToolTip": "C:\\Users\\idate\\Documents\\GitHub\\CA2_Algorithms_and_Datastructures\\CA2_Ida_Tehlarova\\CA2_Ida_Tehlarova\\Main.cpp",
               "RelativeToolTip": "CA2_Ida_Tehlarova\\Main.cpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACUAAAACAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-13T14:55:52.598Z",
               "EditorCaption": ""
