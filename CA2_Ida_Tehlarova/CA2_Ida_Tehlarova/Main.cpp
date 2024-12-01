@@ -31,6 +31,15 @@ int main() {
 				
 			}
 		}
+		string in;
+		cout << "Type the word/letter you want to look up: ";
+		cin >> in;
+		if (fromFile.containsKey(in[0])) {
+			cout << fromFile.get(in[0])<<endl;
+		}
+		else {
+			cout << "Error: file doesn't contain the key"<<endl;
+		}
 		
 		cout << fromFile<< endl;
 		f.close();
@@ -39,6 +48,35 @@ int main() {
 		cout << "Error opening the file!";
 	}
 
+
+
+	TreeMap<char, BinaryTree<string>> fromCSV; 
+
+	ifstream c("NumbersAndWords.csv");
+
+	string firstLine = "";
+	getline(c, firstLine, '\n');
+	if (c) {
+		string  line, words, trees, years, randomFloats = "";
+		while (!c.eof()) { 
+			while (getline(c, line,',')) {  // '\n' is gonna look for end of the line  
+				cout << "Line: " << line << " ";
+
+				getline(c, words, ',');
+				cout << words << " ";
+				getline(c, trees, ',');
+				cout << trees << " ";
+				getline(c, years, ',');
+				cout << years << " ";
+				getline(c, randomFloats, '\n');
+				cout << randomFloats << " " << endl;
+			}
+		}
+		c.close();
+	}
+	else {
+		cout << "Error opening the file!";
+	}
 	
 
 	TreeMap<string, int> tree;
