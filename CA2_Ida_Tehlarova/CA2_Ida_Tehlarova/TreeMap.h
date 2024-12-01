@@ -8,10 +8,11 @@ using namespace std;
 template <class K, class V>
 class TreeMap
 {
-	BinaryTree<Entity<K, V>> tree;
+	
 	void addKeys(BSTNode<Entity<K, V>>* node, BinaryTree<K>& keySet);
 
 public:
+	BinaryTree<Entity<K, V>> tree; 
 	void clear();
 	bool containsKey(K key);
 	int size();
@@ -20,6 +21,9 @@ public:
 	void put(K key, V value);
 	bool removeKey(K key);
 	V& operator[](K key);
+	friend std::ostream& operator<< (std::ostream& out, TreeMap& other) {
+		return out << other.tree;
+	}
 
 };
 

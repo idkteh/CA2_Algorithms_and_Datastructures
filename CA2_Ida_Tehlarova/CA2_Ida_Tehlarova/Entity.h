@@ -24,4 +24,7 @@ struct Entity {
 	bool operator==(Entity& other) {
 		return this->key == other.key;
 	}
+	friend std::ostream& operator<< (std::ostream& out, Entity& other) {
+		return out << other.key << " " << other.value;
+	}
 };
